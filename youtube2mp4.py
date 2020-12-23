@@ -12,6 +12,14 @@
 #mouse.position=(100,425)
 #mouse.click(Button.left,1)
 
+#In order for this to work properly your screen resolution must be set at 1280x720.
+#The scale and layout set to 100%
+#Have only two tabs open. The first tab "https://www.youtube.com/playlist?list=WL" and the second "https://mp4s.org/en1/youtube-to-mp4/" 
+#If you attempt to use another mp4 site the program will not work.
+#Close all other applications and save any unsaved data. 
+#I would recommend setting the 'time.sleep(1)' to 'time.sleep(10)' if this is your first time running this program. 
+#The reason being you will have ten seconds before the next action takes place. Just in case the program malfunctions
+
 from pynput.mouse import Button, Controller
 from datetime import datetime
 import time
