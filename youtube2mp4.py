@@ -19,6 +19,7 @@
 #Close all other applications and save any unsaved data. 
 #I would recommend setting the 'time.sleep(1)' to 'time.sleep(10)' if this is your first time running this program. 
 #The reason being you will have ten seconds before the next action takes place. Just in case the program malfunctions
+#I run this program with IDLE (Python 3.9 64-bit) the place where IDLE pops up is random so I usually move it 
 
 from pynput.mouse import Button, Controller
 from datetime import datetime
